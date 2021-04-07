@@ -1,0 +1,39 @@
+@keyframes animacao-1 {
+    from { transform: rotateZ(0); }
+    to { transform: rotateZ(360deg); }
+}
+
+@keyframes animacao-2 {
+    from {
+        transform: rotateZ(0);
+        border-top-color: red;
+    }
+
+    50% {
+        border-top-color: green;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        border-top-color: blue;
+    }
+}
+
+@keyframes animacao-3 {
+    from {
+        transform: rotateZ(0);
+        border-top-color: red;
+        border-bottom-color: red;
+    }
+
+    50% {
+        border-top-color: green;
+        border-bottom-color: green;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        border-top-color: blue;
+        border-bottom-color: blue;
+    }
+}
