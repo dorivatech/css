@@ -1,0 +1,9 @@
+* {
+    background-color: red;
+}
+
+@media (max-width: 576px) {
+    * {
+        background-color: green;
+    }
+}
