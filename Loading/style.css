@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.animacao {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transform: rotateZ(45deg);
+    animation: animacao 1s infinite linear alternate;
+    border: 2px solid black;
+}
+
+.subanimacao {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    transform: rotateZ(-45deg);
+    animation: subanimacao 1s infinite linear alternate;
+}
+
+@keyframes animacao {
+    from {
+        transform: rotateZ(0);
+        border-radius: 0;
+    }
+
+    50% {
+        width: 150px;
+        height: 150px;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        border-radius: 50%;
+        border-color: blueviolet
+    }
+}
+
+@keyframes subanimacao {
+    from {
+        transform: rotateZ(0);
+        border-radius: 0;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        border-radius: 50%;
+        background-color: blueviolet
+    }
+}
