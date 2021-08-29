@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primeira {
+    margin: 10px;
+    background-color: red;
+}
+
+.segunda {
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: blue;
+}
