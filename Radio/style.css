@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    box-shadow: 0 5px 0 rgba(128, 128, 128, 0.55);
+}
