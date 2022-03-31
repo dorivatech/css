@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    padding: 0 10px;
 }
 
 .container {
@@ -22,4 +23,28 @@ body {
     padding: 10px;
     border: 1px solid rgba(128, 128, 128, 0.55);
     box-shadow: 0 5px 0 rgba(128, 128, 128, 0.55);
+}
+
+.radio-container input {
+    display: none;
+}
+
+.radio-label {
+    display: block;
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.55);
+    position: relative;
+}
+
+.radio-label::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: blue;
+    top: 1px;
+    left: 1px;
 }
