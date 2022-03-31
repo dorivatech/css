@@ -22,5 +22,5 @@ body {
     padding: 10px;
     border: 1px solid rgba(128, 128, 128, 0.55);
     box-shadow: 0 5px 0 rgba(128, 128, 128, 0.55);
-    overflow: scroll;
+    overflow: auto;
 }
